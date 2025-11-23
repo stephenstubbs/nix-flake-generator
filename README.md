@@ -1,10 +1,10 @@
 # Nix Flake Generator
 
-A Rust CLI tool for generating nix development environments. Supports 35 programming languages with intelligent template merging for single-language and polyglot projects.
+A Rust CLI tool for generating nix development environments. Supports 34 programming languages with intelligent template merging for single-language and polyglot projects.
 
 ## Features
 
-- **35 Language Templates**: Support for all major programming languages including Rust, Go, Python, Java, TypeScript, Haskell, and many more
+- **34 Language Templates**: Support for all major programming languages including Rust, Go, Python, Java, TypeScript, Haskell, and many more
 - **Multi-Language Environments**: Combine multiple languages in a single development environment
 - **Self-Contained**: All templates are embedded - no external dependencies
 - **Intelligent Merging**: Automatically handles overlays, inputs, and package conflicts
@@ -13,7 +13,7 @@ A Rust CLI tool for generating nix development environments. Supports 35 program
 
 ## Supported Languages
 
-bun, c-cpp, clojure, csharp, cue, dhall, elixir, elm, gleam, go, hashi, haskell, haxe, java, kotlin, latex, nickel, nim, nix, node, ocaml, opa, php, protobuf, pulumi, python, r, ruby, rust, rust-toolchain, scala, shell, swift, vlang, zig
+bun, c-cpp, clojure, csharp, cue, dhall, elixir, elm, gleam, go, hashi, haskell, java, kotlin, latex, nickel, nim, nix, node, ocaml, opa, php, protobuf, pulumi, python, r, ruby, rust, rust-toolchain, scala, shell, swift, vlang, zig
 
 ## Installation
 

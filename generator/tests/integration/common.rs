@@ -5,7 +5,7 @@ use tempfile::TempDir;
 
 // Test helper functions
 pub fn create_cargo_command() -> Command {
-    Command::cargo_bin("nix-flake-generator").unwrap()
+    Command::new(assert_cmd::cargo::cargo_bin!("nix-flake-generator"))
 }
 
 pub fn create_temp_dir_with_path() -> (TempDir, String) {

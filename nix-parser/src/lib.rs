@@ -344,15 +344,6 @@ mod tests {
     }
 
     #[test]
-    fn test_extract_flake_fragments_haxe() {
-        let input = include_str!("templates/haxe.nix");
-        let result = extract_flake_fragments(input).unwrap();
-        
-        assert!(result.inputs.contains_key("nixpkgs"));
-        assert!(!result.packages.is_empty());
-    }
-
-    #[test]
     fn test_extract_flake_fragments_kotlin() {
         let input = include_str!("templates/kotlin.nix");
         let result = extract_flake_fragments(input).unwrap();

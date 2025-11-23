@@ -6,7 +6,7 @@ use crate::integration::common::{
 
 pub const ALL_LANGUAGES: &[&str] = &[
     "bun", "c-cpp", "clojure", "csharp", "cue", "dhall", "elixir", "elm",
-    "gleam", "go", "hashi", "haskell", "haxe", "java", "kotlin", "latex",
+    "gleam", "go", "hashi", "haskell", "java", "kotlin", "latex",
     "nickel", "nim", "nix", "node", "ocaml", "opa", "php", "protobuf",
     "pulumi", "python", "r", "ruby", "rust", "rust-toolchain", "scala",
     "shell", "swift", "vlang", "zig",

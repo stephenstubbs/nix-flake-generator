@@ -43,7 +43,7 @@ fn test_popular_language_combinations() {
         ("cue,dhall", "Configuration Languages"),
         ("elm,haskell", "Functional Frontend"),
         ("gleam,elixir", "BEAM Ecosystem"),
-        ("haxe,nim", "Multi-target Languages"),
+        ("nim,zig", "Multi-target Languages"),
         ("latex,r", "Academic Writing"),
         ("nickel,nix", "Nix Ecosystem"),
         ("ocaml,haskell", "ML Family"),

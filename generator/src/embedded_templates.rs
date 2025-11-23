@@ -96,7 +96,6 @@ mod tests {
             "go",
             "hashi",
             "haskell",
-            "haxe",
             "java",
             "kotlin",
             "latex",

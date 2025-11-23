@@ -17,7 +17,7 @@ fn test_comprehensive_language_coverage() {
         ("python,r,latex", "Scientific Computing"),
         ("hashi,pulumi,nix,shell", "Infrastructure"),
         ("cue,dhall,nickel", "Configuration Languages"),
-        ("haxe,swift,csharp", "Multi-target Development"),
+        ("swift,csharp,kotlin", "Multi-target Development"),
         ("nim,vlang,opa", "Modern Alternatives"),
         ("protobuf,php,go", "API Development"),
         ("rust-toolchain,rust", "Rust Variants"),
