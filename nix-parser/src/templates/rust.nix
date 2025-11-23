@@ -51,7 +51,6 @@
             rust.stable.latest.default.override {
               extensions = [
                 "rust-src"
-                "rustfmt"
               ];
             };
       };
@@ -61,12 +60,10 @@
         {
           default = pkgs.mkShell {
             packages = with pkgs; [
-              rustToolchain
-              openssl
-              pkg-config
-              cargo-deny
               cargo-edit
-              cargo-watch
+              cargo-workspaces
+              pkg-config
+              rustToolchain
               rust-analyzer
             ];
 
